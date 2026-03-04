@@ -1,18 +1,3 @@
-/**
- * Raspberry Pi Pico 2 W Operating System - Version 2.0
- * Full-featured OS with shell, filesystem, networking, and utilities
- * NEW IN V2.0: Local web server with HTML/CSS support from LittleFS
- * Communicates over USB serial (TTY)
- * 
- * FEATURES:
- * - Dual-core processing (Core 0: Shell, Core 1: Background tasks)
- * - LittleFS filesystem on flash
- * - WiFi networking with NTP time sync
- * - Local HTTP web server (command: localhost)
- * - Apps: Tetris, Snake, Timer, Todo, Nmap, ASCII converter
- * - File management: nano editor, ls, cat, delete
- */
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
